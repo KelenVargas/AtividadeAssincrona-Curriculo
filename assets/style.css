@@ -3,24 +3,38 @@ body{
     padding: 50px;
 }
 
-.header{
-    padding: 5px;
+header{    
     margin: 10px auto;
-}
-.linha-horizontal{
-    width: 95%;
-    border: 1px solid #000;
+    display:flex;
+    align-items: flex-end;
    
+}
+
+.linha-horizontal{
+    width: 100%;
+    border: 1px solid #000;  
     
 }
 
 .img-kelen{
     border: 2px solid black;
     padding: 10px;
-    width: 150px;
-    height: 200px;
-    float: right;  	
-   
-
+    width: 100%;  
+    max-width: 150px;     
 }
 
+.infoPessoais{
+    display: inline-block;
+    width: 70%;
+}
+
+.img{
+    display: inline-block;
+    width: 27%;
+    text-align: right;
+}
+
+.infoEmpresa{
+    display: flex;
+    justify-content: space-between;
+}
